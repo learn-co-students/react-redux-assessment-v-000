@@ -49,9 +49,8 @@ React Frontend:
 6. There should be at least three routes.
 7. Your React Frontend should handle the display of data with minimal data manipulation.
 8. Your app must make use of `react-router` and proper RESTful routing (should you choose to use react-router v3 please refer to the appropriate [docs](https://github.com/ReactTraining/react-router/tree/v3/docs); docs for v4 can be found [here](https://reacttraining.com/react-router/web/guides/quick-start))
-9. Use Redux middleware to respond to and modify state change.
-10. Make use of Async actions to send data to and receive data from your rails API server.
-11. Your app should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
+9. Use the redux-thunk middleware to make asynchronous actions to respond to and send data to your rails API server.
+10. Your app should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
 
 Rails API:
 1. Your Rails API should handle data persistence through a database.
