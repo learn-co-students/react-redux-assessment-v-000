@@ -1,94 +1,116 @@
 # Building a client-side application with React-Redux
 
-## Objectives
+## Overview
 
-1. Demonstrate mastery of material in this course
-2. Push yourself — integrate with a new API!
+- [What to Expect from the Project Review](#expectations)
+- [Project Requirements](#requirements)
+- [Support](#support)
+- [F.A.Qs](#frequent)
+- [Practicing for Success on Learn](#success)
+- [Resources](#resources)
 
 ## Woo!
 You made it! All of your hard work and long hours have lead you here... to this moment... a moment of glory! You've earned every gym badge, defeated every boss, wrestled with your inner daemons (heh) to ultimately lead you to this.
 
 ![Jim Carrey Celebrating New Years](http://i.makeagif.com/media/9-04-2015/f4fAal.gif)
 
-## Your final assessment 
+## <a id="expectations">What to expect from the Project Review</a>
 
+Project reviews are focused on preparing you for [technical interviews](https://www.brightnetwork.co.uk/career-path-guides/technology-it-software-development/five-ways-stand-out-your-technology/what-expect-technical-interview/). Treat project reviews as if they were technical interviews in both attitude and technical presentation.
+
+During your project review, be prepared to:
+
+1. Explain your code from execution point to exit point. Use the best technical vocabulary you can. 15 minutes
+2. Live code. This could be refactoring, adding a new feature, or both. 20 minutes
+3. You will also be asked questions that test your knowledge of JavaScript fundamentals. 10 minutes
+
+If any requirements are missing or if significant gaps in understanding are found, be prepared to do one or all of the following:
+
+- Submit an improved version
+- Meet again for another Project Review
+
+What won't happen:
+
+- You won't be yelled at, belittled, or scolded
+- You won't be put on the spot without support
+- There's nothing you can do to instantly fail or blow it
+
+## <a id="requirements">Project Requirements</a>
 This lesson covers your final assignment. It is supposed to be your magnum opus — a culmination of
-all the skills you've learned so far. It's going to be a tough one, but you'll make it through.
+all the skills you've learned so far. It's going to be a tough one, but you'll make it through. For this project you will be building a React frontend as well as Rails API, the requirements of which are as follow:
 
-## Overview
-This assignment is open-ended when it comes to the actual content. You are free to create
-whatever you'd like, as long as it incorporates most of what you've learned in this course. If
-you don't have any inspiration at the moment, here are a couple of ideas:
-
-- Twitter client
-- Imgur browsing app
-- Reddit feed
-- Airbnb clone
-- Crossword puzzle
-- A simple board game 
-
-## Requirements
-
-- The code should be written in ES6 as much as possible
-- Use the `create-react-app` generator to start your project.
+React Frontend:
+1. The code should be written in ES6 as much as possible, do not use jQuery.
+2. Use the `create-react-app` generator to start your project.
 	- Follow the instructions on this repo to setup the generator: [create-react-app](https://github.com/facebookincubator/create-react-app)
-- Your app should have one HTML page to render your react-redux application
-- There should be 2 container components
-- There should be 5 stateless components
-- There should be 3 routes
-- The Application must make use of `react-router` and proper RESTful routing (should you choose to use react-router v3 please refer to the appropriate [docs](https://github.com/ReactTraining/react-router/tree/v3/docs); docs for v4 can be found [here](https://reacttraining.com/react-router/web/guides/quick-start))
-- Use Redux middleware to respond to and modify state change
-- Make use of async actions to send data to and receive data from a server
-- Your Rails API should handle the data persistence. You should be using `fetch()` within your actions to GET and POST data from your API - do not use
-jQuery methods.
-- Your client-side application should handle the display of data with minimal data manipulation
-- Your application should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
-- [Once your app is complete, fill out this checklist.](https://goo.gl/forms/ULtKsxuzWomvXuTk2)
+3. Your app should have one HTML page to render your React-Redux application.
+4. There should be at least two container components.
+5. There should be at least five functional/presentional components.
+6. There should be at least three routes.
+7. Your React Frontend should handle the display of data with minimal data manipulation.
+8. Your app must make use of `react-router` and proper RESTful routing (should you choose to use react-router v3 please refer to the appropriate [docs](https://github.com/ReactTraining/react-router/tree/v3/docs); docs for v4 can be found [here](https://reacttraining.com/react-router/web/guides/quick-start))
+9. Use Redux middleware to respond to and modify state change.
+10. Make use of Async actions to send data to and receive data from your rails API server.
+11. Your app should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
+
+Rails API:
+1. Your Rails API should handle data persistence through a database.
+2. Your Rails API should be able to handle Creating, Reading, Updating and Deleting AJAX request from your React frontend.
 
 Go wild! These are only the basic requirements — you're free to add on as much stuff as you'd like.
 
-## Hooking up a Rails API backend
+## <a id="support">Project Support</a>
 
-Use this blog to hook up a React-Redux frontend to your rails API backend: [Setup Rails API with React](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
 
-## Assessment
+You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
-### Be prepared to
-1. Explain your code. You might be asked why you chose to solve things a certain way, or why you
-chose a certain library or code structure.
-2. Refactor/reorganize your code.
-3. Build out extra basic functionality.
+## <a id="frequent">F.A.Qs</a>
+1. How do I connect a Rails API backend to a React Frontend?
+- Todo: Add Link to video recording of study group 
+2. Can I use __?
+- Todo: Add Link to Howard's repo on what can they use
+3. Should I make everything in One repo or in two seperate repos?
+- Todo: Add link to gist explaining the differences.  
 
-### What to expect from the pairing session
-Your final project review is a comprehensive review that can cover all the topics that you have covered in the Learn.co curriculum. We will be asking the majority of questions about the final section, but don't be surprised if your interviewer asks questions about earlier topics. Like earlier reviews, we really do want you to succeed, and we'll work with you as many times as necessary to get you through the review if you don't nail it the first time (which is quite common and completely OK). However, we will potentially give you a hard time, cut you off, push you on your use of vocabulary and/or your coding choices. We want to try to give you a sense of what a coding interview might be like, so you build the confidence to describe your app and to write code even in a higher pressure, slightly more adversarial environment.
+
+## <a id="success">Practicing for Success on Learn</a>
 
 #### Be scrappy.
-- If you make a mistake, correct yourself. 
-- Think on your feet. We will expect you to be able to explain development concepts to us, as well as expanding on concepts that you have already implemented, but you’ll also have the opportunity to look things up while you're live coding.
+
+- If you make a mistake, correct yourself! We all make mistakes, I promise.
+- Think on your feet. Feel free to look things up while you're pairing with us. You'll be asked to expand on concepts you implemented and you will be pushed to the edge of your knowledge.
+- Explain the details. We're curious!
+- Don’t worry if your code isn’t perfect the first time - focus on getting something working, then refactoring to improve it.
 
 #### Make no little plans.
-- Approach live coding with a constructive attitude. You might feel nervous or uncertain, but as long as you are familiar with the section material you should be able to reason your way to a solution.
-- Be proud of your project and your code, and show confidence in it. 
+
+- You're going to learn a ton. We will give pointers and show you ways to improve your code. This isn't telling you that your code is wrong, it's simply us teaching. Whatever you don't quite understand will be explained.
+- Be proud of your project and your code, and show confidence in it.
 
 #### Radiate positivity.
-- Present yourself and your project in the best way possible. 
-- Be open to feedback, both positive and constructive. 
-- If the instructor asks you to complete additional features, or you missed a project requirement, be sure to ask questions in a positive manner without becoming argumentative. Learning to become a developer is complex and challenging, and it’s our job to find the holes in your knowledge and help you fill them. This is to help you become a better developer, not to delay your graduation.
+
+- Present yourself and your project in the best way possible.
+- Be open to feedback, both positive and constructive.
+- Remember, the interviewer is a person too. Be nice to them!
 
 #### Work Together.
-- Our goal is to give you the most thorough technical interview possible in the time allocated. This will include live coding where the instructor might give you one or two pointers, but will for the most part sit back and watch you code.
-- Ask clarification questions when you need them. Asking for more details is always ok.
+
+- Trust yourself.
+- Trust us - our goal is to help you be successful in achieving your goals.
+- We understand that this process can be stressful. We’re here to help you through.
 
 #### Pursue mastery.
-- You will be expected to be able to present yourself as if you were in consideration for a developer position.
-- Use the best technical vocabulary you can. You will be expected to present yourself as a competent full stack developer.
-- Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information. Your instructor will be able to point you to the appropriate section lead or technical coach for more information.
 
+- Use the best technical vocabulary you can. We’ll help you with the words you can’t remember, or if you’re unsure about how something is pronounced.
+- Ask questions! Curiosity and willingness to learn are hugely valued in our industry. If you haven’t heard of something, that’s okay - use this opportunity to learn about it!
 
-### What won't happen
-- You won't be told you're ever wrong
-- You won't be yelled at, belittled, or scolded
-- You won't be put on the spot without support
-- There's nothing you can do to instantly fail or blow it.
+## <a id="resources">Resources</a>
+
+- [React Docs](https://reactjs.org/)
+- [Redux Docs](https://redux.js.org/)
+- [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
+- [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-redux-assessment'>React Redux Portfolio Project</a> on Learn.co and start learning to code for free.</p>
