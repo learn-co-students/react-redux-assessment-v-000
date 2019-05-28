@@ -37,7 +37,7 @@ What won't happen:
 
 ## <a id="requirements">Project Requirements</a>
 This lesson covers your final assignment. It is supposed to be your magnum opus — a culmination of
-all the skills you've learned so far. It's going to be a tough one, but you'll make it through. For this project you will be building a React frontend as well as Rails API, the requirements of which are as follows:
+all the skills you've learned so far. It's going to be a tough one, but you'll make it through. For this project you will be building a React frontend as well as Rails API, the requirements of which are as follow:
 
 React Frontend:
 1. The code should be written in ES6 as much as possible, do not use jQuery.
@@ -66,7 +66,7 @@ You can find your Learn Instructor using the following link: [Who are the sectio
 
 ## <a id="frequent">F.A.Qs</a>
 1. How do I connect a Rails API backend to a React Frontend?
-- Todo: Add Link to video recording of study group
+- Todo: Add Link to video recording of study group 
 2. Can I use __?
 - Todo: Add Link to Howard's repo on what can they use
 3. Should I make everything in One repo or in two seperate repos?
