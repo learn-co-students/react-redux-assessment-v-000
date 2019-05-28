@@ -49,7 +49,7 @@ React Frontend:
 6. There should be at least three routes.
 7. Your React Frontend should handle the display of data with minimal data manipulation.
 8. Your app must make use of `react-router` and proper RESTful routing (should you choose to use react-router v3 please refer to the appropriate [docs](https://github.com/ReactTraining/react-router/tree/v3/docs); docs for v4 can be found [here](https://reacttraining.com/react-router/web/guides/quick-start))
-9. Use the redux-thunk middleware to make asynchronous actions to respond to and send data to your rails API server.
+9. Use the redux-thunk middleware to make asynchronous actions to respond to and send data to your Rails API server.
 10. Your app should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
 
 Rails API:
@@ -66,7 +66,7 @@ You can find your Learn Instructor using the following link: [Who are the sectio
 
 ## <a id="frequent">F.A.Qs</a>
 1. How do I connect a Rails API backend to a React Frontend?
-- Todo: Add Link to video recording of study group 
+- Todo: Add Link to video recording of study group
 2. Can I use __?
 - Todo: Add Link to Howard's repo on what can they use
 3. Should I make everything in One repo or in two seperate repos?
