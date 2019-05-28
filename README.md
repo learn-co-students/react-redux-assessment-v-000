@@ -54,7 +54,7 @@ React Frontend:
 
 Rails API:
 1. Your Rails API should handle data persistence through a database.
-2. Your Rails API should be able to handle Creating, Reading, Updating and Deleting AJAX request from your React frontend.
+2. Your Rails API should be able to handle Creating, Reading, Updating and Deleting at least one resource via AJAX requests from your React frontend (you can JS's Fetch API or an external library such as axios, but no jQuery).
 
 Go wild! These are only the basic requirements — you're free to add on as much stuff as you'd like.
 
