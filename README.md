@@ -60,7 +60,7 @@ Go wild! These are only the basic requirements — you're free to add on as much
 
 ## <a id="support">Project Support</a>
 
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask A Question feature. Rather than working with AAQ technical coaches, please reach out to your Learn Instructor responsible for this section.
 
 You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
