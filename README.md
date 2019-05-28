@@ -64,11 +64,10 @@ Unlike the rest of the curriculum, if you have any questions about your assessme
 
 You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
-## <a id="frequent">F.A.Qs</a>
+## <a id="frequent">FAQs</a>
 1. How do I connect a Rails API backend to a React Frontend?
 - Todo: Add Link to video recording of study group
-2. Can I use __?
-- Todo: Add Link to Howard's repo on what can they use
+2. [Can I use __ on my final project](https://github.com/howardbdev/portfolio-project-faqs/blob/master/can-i-use-react-hooks-or-context-api-for-my-final-project.md)?
 3. Should I make everything in One repo or in two seperate repos?
 - Todo: Add link to gist explaining the differences.  
 
