@@ -49,26 +49,25 @@ React Frontend:
 6. There should be at least three routes.
 7. Your React Frontend should handle the display of data with minimal data manipulation.
 8. Your app must make use of `react-router` and proper RESTful routing (should you choose to use react-router v3 please refer to the appropriate [docs](https://github.com/ReactTraining/react-router/tree/v3/docs); docs for v4 can be found [here](https://reacttraining.com/react-router/web/guides/quick-start))
-9. Use the redux-thunk middleware to make asynchronous actions to respond to the full CRUD actions to your rails API server.
+9. Use the redux-thunk middleware to make asynchronous create, read, update and delete actions to your Rails API server.
 10. Your app should have some minimal styling: feel free to stick to a framework (like react-bootstrap), but if you want to write (additional) CSS yourself, go for it!
 
 Rails API:
 1. Your Rails API should handle data persistence through a database.
-2. Your Rails API should be able to handle Creating, Reading, Updating and Deleting AJAX request from your React frontend.
+2. Your Rails API should be able to handle Creating, Reading, Updating and Deleting at least one resource via AJAX requests from your React frontend (you can JS's Fetch API or an external library such as axios, but no jQuery).
 
 Go wild! These are only the basic requirements — you're free to add on as much stuff as you'd like.
 
 ## <a id="support">Project Support</a>
 
-Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
+Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask A Question feature. Rather than working with AAQ technical coaches, please reach out to your Learn Instructor responsible for this section.
 
 You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
-## <a id="frequent">F.A.Qs</a>
+## <a id="frequent">FAQs</a>
 1. How do I connect a Rails API backend to a React Frontend?
-- Todo: Add Link to video recording of study group 
-2. Can I use __?
-- Todo: Add Link to gist on what can they use
+- Todo: Add Link to video recording of study group
+2. [Can I use _[hooks, Context API, or whatever extra-curricular library or tool]_ on my final project](https://github.com/howardbdev/portfolio-project-faqs/blob/master/can-i-use-react-hooks-or-context-api-for-my-final-project.md)?
 3. Should I make everything in One repo or in two seperate repos?
 - Todo: Add link to gist explaining the differences.  
 
