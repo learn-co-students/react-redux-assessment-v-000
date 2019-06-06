@@ -65,12 +65,12 @@ Unlike the rest of the curriculum, if you have any questions about your assessme
 You can find your Learn Instructor using the following link: [Who are the section leads](http://help.learn.co/instructional-support/receiving-course-support/who-are-the-section-leads).
 
 ## <a id="frequent">FAQs</a>
-1. How do I connect a Rails API backend to a React Frontend?
-- Todo: Add Link to video recording of study group
-2. [Can I use _[hooks, Context API, or whatever extra-curricular library or tool]_ on my final project](https://github.com/howardbdev/portfolio-project-faqs/blob/master/can-i-use-react-hooks-or-context-api-for-my-final-project.md)?
-3. Should I make everything in One repo or in two seperate repos?
-- Todo: Add link to gist explaining the differences.  
+1. Should I build everything in a single repository or in two seperate repositories?
+- This blog post goes through the main differences between the two approaches: [Monorepo vs Polyrepo](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo)
 
+2. How do I connect a Rails API backend to a React Frontend?
+- Use this blog post to hook up a React-Redux frontend to your rails API backend: [Setup Rails API with React](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/) It will walk you through setting up a Rails API, using the Create-React-App and connecting the two through foreman.
+3. [Can I use _[hooks, Context API, or whatever extra-curricular library or tool]_ on my final project](https://github.com/howardbdev/portfolio-project-faqs/blob/master/can-i-use-react-hooks-or-context-api-for-my-final-project.md)?
 
 ## <a id="success">Practicing for Success on Learn</a>
 
