@@ -47,10 +47,6 @@ jQuery methods.
 
 Go wild! These are only the basic requirements — you're free to add on as much stuff as you'd like.
 
-## Hooking up a Rails API backend
-
-Use this blog to hook up a React-Redux frontend to your rails API backend: [Setup Rails API with React](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
-
 ## Assessment
 
 ### Be prepared to
